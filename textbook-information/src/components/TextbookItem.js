@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 export default function TextbookItem({
   name,
   image,
@@ -61,6 +63,8 @@ export default function TextbookItem({
       <p>Used: {options.buy.used}</p>
       <p>New: {options.buy.new}</p>
       <p>Digital: {options.buy.digital}</p>
+
+      <Link to="../pages/Main">Home</Link>
     </>
   );
 }
