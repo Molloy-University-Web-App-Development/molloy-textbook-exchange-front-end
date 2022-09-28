@@ -38,7 +38,7 @@ const book = {
 export default function TextbookInfo() {
   return (
     <>
-      <h1>Course Materials</h1>
+      <h1 id="course">Course Materials</h1>
       <p>Molloy University / Fall 2022</p>
       <TextbookItem {...book} />
       <Link to="/">Home</Link>
