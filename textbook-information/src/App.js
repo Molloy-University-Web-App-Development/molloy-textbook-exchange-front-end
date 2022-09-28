@@ -13,7 +13,9 @@ export default function App() {
           exact
           path="/"
           element={
-            <Main />
+            <>
+            <h1>SHeesh</h1>
+            </>
           }
         ></Route>
         <Route exact path="/book/1" element={<TextbookInfo />}></Route>
