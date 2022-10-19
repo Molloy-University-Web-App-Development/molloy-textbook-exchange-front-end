@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import TextbookItem from "../components/TextbookItem";
 
 const book = {
@@ -16,23 +15,23 @@ const book = {
     rent: {
       used: {
         price: "$81.40",
-        due: "12/20/22"
+        due: "12/20/22",
       },
       new: {
         price: "$132.28",
-        due: "12/20/22"
+        due: "12/20/22",
       },
       digital: {
         price: "$46.99",
-        length: "180 Days"
-      }
+        length: "180 Days",
+      },
     },
     buy: {
       used: "$152.75",
       new: "$203.50",
-      digital: "$81.99"
-    }
-  }
+      digital: "$81.99",
+    },
+  },
 };
 
 export default function TextbookInfo() {
@@ -41,7 +40,6 @@ export default function TextbookInfo() {
       <h1 id="course">Course Materials</h1>
       <p>Molloy University / Fall 2022</p>
       <TextbookItem {...book} />
-      <Link to="/">Home</Link>
     </>
   );
 }
