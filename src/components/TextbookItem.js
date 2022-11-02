@@ -14,7 +14,7 @@ export default function TextbookItem({
     <>
       <article className="book">
         <h3 className="book-title">{name}</h3>
-        <img src={image} alt={"book" + name}></img>
+        <img className="book-image" src={image} alt={"book" + name}></img>
         <br />
         <strong>{priceRange}</strong>
         <br />

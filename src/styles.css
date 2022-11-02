@@ -14,10 +14,20 @@ body {
   border: pink solid 3px;
 }
 
+.link:hover {
+  background-color: whitesmoke;
+  transition: 5s;
+}
+
 #home-title {
   width: 700px;
   margin: auto;
   background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Fwatercolor-background&psig=AOvVaw00UUDVzzysCXwc0uDYFVCu&ust=1666909075742000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKi4_6v2_voCFQAAAAAdAAAAABAE);
+}
+
+.book-image:hover {
+  width: 200px;
+  height: 200px;
 }
 
 @media only screen and (max-width: 600px) {

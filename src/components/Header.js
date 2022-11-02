@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <nav className="navbar">
       <ul>
-        <HashLink to="/#home-title">Home</HashLink>
+        <HashLink className="link" to="/#home-title">
+          Home
+        </HashLink>
       </ul>
     </nav>
   );
