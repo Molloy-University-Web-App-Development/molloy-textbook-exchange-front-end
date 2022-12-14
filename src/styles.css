@@ -7,16 +7,29 @@ body {
 }
 
 .navbar {
-  background-color: grey;
+  background-color: #474E68;
   border-radius: 10px;
   padding: 10px;
   margin: 20px;
-  border: pink solid 3px;
+  border: #6B728E solid 3px;
+}
+.navbar li {
+  list-style-type: none;
+  display: inline;
+  margin: 5px;
+  font-weight: bold;
 }
 
+.link {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+}
 .link:hover {
-  background-color: whitesmoke;
-  transition: 5s;
+  color: #FFDDD2;
+  background-color: #6B728E;
+  transition: 300ms;
 }
 
 #home-title {

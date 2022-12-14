@@ -4,9 +4,16 @@ const Header = () => {
   return (
     <nav className="navbar">
       <ul>
-        <HashLink className="link" to="/#home-title">
-          Home
-        </HashLink>
+        <li>
+          <HashLink className="link" to="/#home-title">
+            Home
+          </HashLink>
+        </li>
+        <li>
+          <HashLink className="link" to="/book/1">
+            Database Systems
+          </HashLink>
+        </li>
       </ul>
     </nav>
   );
