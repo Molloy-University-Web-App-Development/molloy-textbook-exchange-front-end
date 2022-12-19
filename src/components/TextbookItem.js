@@ -46,23 +46,28 @@ export default function TextbookItem({
             {copyrightYear}{" "}
           </li>
         </ul>
+        <article className="payment">
+          <section className="rent">
+            <h4>Rent</h4>
+            <p>
+              Used: {options.rent.used.price} due {options.rent.used.due}{" "}
+            </p>
+            <p>
+              New: {options.rent.new.price} due {options.rent.new.due}{" "}
+            </p>
+            <p>
+              Digital: {options.rent.digital.price} due in{" "}
+              {options.rent.digital.length}{" "}
+            </p>
+          </section>
 
-        <h4>Rent</h4>
-        <p>
-          Used: {options.rent.used.price} due {options.rent.used.due}{" "}
-        </p>
-        <p>
-          New: {options.rent.new.price} due {options.rent.new.due}{" "}
-        </p>
-        <p>
-          Digital: {options.rent.digital.price} due in{" "}
-          {options.rent.digital.length}{" "}
-        </p>
-
-        <h4> Buy </h4>
-        <p>Used: {options.buy.used}</p>
-        <p>New: {options.buy.new}</p>
-        <p>Digital: {options.buy.digital}</p>
+          <section className="buy">
+            <h4> Buy </h4>
+            <p>Used: {options.buy.used}</p>
+            <p>New: {options.buy.new}</p>
+            <p>Digital: {options.buy.digital}</p>
+          </section>
+        </article>
       </article>
     </>
   );

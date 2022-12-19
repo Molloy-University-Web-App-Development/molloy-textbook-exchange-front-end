@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import TextbookItem from "../components/TextbookItem";
 
 const book = {
@@ -35,10 +36,19 @@ const book = {
 };
 
 export default function TextbookInfo() {
+  const [data, setData] = useState([]);
+  console.log(data.length);
+  useEffect(() => {
+    if (data.length < 1) {
+      fetch("data.json")
+        .then((response) => response.json())
+        .then((reponse) => {
+          setData(reponse);
+        });
+    }
+  }, []);
   return (
     <>
-      <h1 id="course">Course Materials</h1>
-      <p>Molloy University / Fall 2022</p>
       <TextbookItem {...book} />
     </>
   );

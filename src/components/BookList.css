@@ -1,0 +1,42 @@
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .book {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0 0.5rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    overflow: hidden;
+  }
+  
+  .book-image {
+    width: 100%;
+    height: 15rem;
+    object-fit: cover;
+  }
+  
+  .book-details {
+    padding: 1rem;
+    background-color: white;
+  }
+  
+  .book-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .book-isbn,
+  .book-author,
+  .book-category {
+    margin: 0.5rem 0;
+    font-size: 0.875rem;
+    color: gray;
+  }
+  

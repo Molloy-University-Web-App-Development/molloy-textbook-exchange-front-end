@@ -1,0 +1,51 @@
+[
+  {
+    "title": "The Great Gatsby",
+    "isbn": "9781443456657",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51TgTt0A1tL._SX322_BO1,204,203,200_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "title": "Pride and Prejudice",
+    "isbn": "9781443456534",
+    "author": "Jane Austen",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51CzZ8LcZoL._SX324_BO1,204,203,200_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "isbn": "9781443456541",
+    "author": "Harper Lee",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51uO3PUXV7L._SX310_BO1,204,203,200_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "title": "The Catcher in the Rye",
+    "isbn": "9781443456565",
+    "author": "J.D. Salinger",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51rHyq3TJ2L._SX326_BO1,204,203,200_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "title": "The Alchemist",
+    "isbn": "9781443456589",
+    "author": "Paulo Coelho",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51-pKGnYn8L._SX324_BO1,204,203,200_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "title": "The Bell Jar",
+    "isbn": "9781443456558",
+    "author": "Sylvia Plath",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51TKZ-T%2BbDL._SX322_BO1,204,203,200_.jpg",
+    "category": "Fiction"
+  },
+  {
+    "title": "One Hundred Years of Solitude",
+    "isbn": "9781443456572",
+    "author": "Gabriel García Márquez",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51ZJhkaZ8BL._SX324_BO1,204,203,200_.jpg",
+    "category": "Fiction"
+  }
+]

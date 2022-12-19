@@ -1,0 +1,35 @@
+.navbar {
+  background-color: #960423;
+    font-size: 1.6rem;
+    margin: 0;
+    padding: 2rem;
+
+}
+.navbar-ul {
+    margin: 0 2rem 0 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px;
+  }
+.navbar li {
+    list-style-type: none;
+    font-weight: light;
+  }
+  
+.nav-link {
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: lighter;
+  }
+.nav-link:hover {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-decoration-thickness: 0.1rem;
+  }
+.nav-brand {
+  align-self: flex-start;
+  text-decoration: none;
+  color: white;
+}
